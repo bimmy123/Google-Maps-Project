@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="theme-color" content="#ff0000" >
+    <link rel="icon" href="https://glitch.com/favicon.ico" >
+    <link rel="manifest" href="manifest.json">
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Google Maps Project</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+    function myFunction() {
+      
+      
+    };
+    
+    </script>
+    
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myFunction&libraries=places">
+    </script>
+    
+  </head>
+  <body>
+ 
+    
+   
+
+    
+   
+    <div id="map"></div>
+    
+      
+<input id="drive" type="button" value="Drive" onclick="RouteDriving()">
+<input id="bus" type="button" value="Bus" onclick="RouteBusing()">
+<input id="bike" type="button" value="Bike" onclick="RouteBiking()">
+
+<div id="sidebar">
+</div>
+
+<div id="floating-panel"></div>
+
+
+
+    <!-- The website JavaScript file -->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
